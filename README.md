@@ -3,6 +3,7 @@
 ## Descrição do Projeto
 
 Este projeto consiste em uma página web para o cadastro de usuários, utilizando HTML, CSS e JavaScript. A página oferece um formulário simples para os usuários inserirem suas informações, como nome, senha, WhatsApp e CEP. Além disso, há uma opção para o usuário indicar se deseja receber promoções via WhatsApp.
+Projeto desenvolvido apenas para teste de html e css na minha matéria de PA.
 
 ## Como Utilizar
 
@@ -10,7 +11,6 @@ Este projeto consiste em uma página web para o cadastro de usuários, utilizand
    ```bash
    git clone https://github.com/seu-usuario/nome-do-repositorio.git
 2. **Abra o Arquivo HTML:**
-
 Abra o arquivo index.html em um navegador da web para visualizar a página.
 
 3. **Preencha o Formulário:**
@@ -32,3 +32,5 @@ Clique no botão "Registrar agora" para enviar as informações. Uma mensagem de
 Contribuições são bem-vindas! Se encontrar algum problema ou tiver sugestões de melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
 ## Autor
+Tiago Santana Palmeira
+tiagoff05pay@gmail.com
