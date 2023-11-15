@@ -1,0 +1,71 @@
+/* Adicione estas regras ao seu arquivo style.css */
+
+body {
+    background-image: url('https://files.clicksergipe.com.br//thumbs.php?arquivo=1/conteudos/2022/05/75605/12fe4ea414cd5448f30333e32dfea005.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Adiciona um filtro de desfoque à imagem de fundo do corpo */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url('https://files.clicksergipe.com.br//thumbs.php?arquivo=1/conteudos/2022/05/75605/12fe4ea414cd5448f30333e32dfea005.jpg');
+    filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+
+.Caixa {
+    width: 700px;
+    height: 450px;
+    top: 150px;
+    flex-shrink: 0;
+    border-radius: 42px;
+    background: rgba(28, 40, 80, 0.925);
+    right: 350px;
+    position: absolute;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.25);
+}
+
+.Form {
+    top: 300px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Form input[type="text"],
+.Form input[type="password"] {
+    height: 20px;
+    width: 400px;
+}
+
+.botao {
+    background-color: #F43125;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.img img {
+	margin-top: 1px;
+    width: 100px;
+    height: 100px;
+    border-radius: 40%;
+	margin-bottom: 600px;
+}
